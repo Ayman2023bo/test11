@@ -1,11 +1,13 @@
+import 'package:flutter/material.dart';
+
 class Wadgit extends StatefulWidget {
-  const Screen({super.key});
+  const Wadgit({super.key});
 
   @override
-  State<Screen> createState() => _ScreenState();
+  State<Wadgit> createState() => _WadgitState();
 }
 
-class Wadgit extends State<Screen> {
+class _WadgitState extends State<Wadgit> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
